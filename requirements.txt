@@ -1,0 +1,8 @@
+flask-sqlalchemy
+flask
+wtforms
+requests
+flask-wtf
+flask-bootstrap
+sqlalchemy.orm
+sqlalchemy
