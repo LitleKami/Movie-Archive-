@@ -13,12 +13,10 @@ class Base(DeclarativeBase):
 
 
 # requests
-movie_database_api_key = 'fe3009e750ea5be9e500d8054680df82'
+movie_database_api_key = 'YOUR-TMDB APIKEY'
 headers = {
     "accept": "application/json",
-     "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZTMwMDllNzUwZWE1YmU5ZTUwMGQ4MDU0NjgwZGY4MiIsInN1YiI6IjY2"
-                      "Mjg3NDRjYTM5ZDBiMDEzZTQ3N2VhYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.aTxzG7Ic72dHiOxHWl"
-                      "J56puIPd05bnADCSTQ7DfDf14"
+     "Authorization": "Bearer YOUR TMDB AUTH"
 }
 
 db = SQLAlchemy(model_class=Base)
